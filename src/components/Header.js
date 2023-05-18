@@ -48,8 +48,8 @@ const LoggedInView = props => {
         </li>
 
         <li className="nav-item">
-          <Link to="/settings" className="nav-link">
-            <i className="ion-gear-a"></i>&nbsp;Settings
+          <Link to="/preferences" className="nav-link">
+            <i className="ion-gear-a"></i>&nbsp;Preferences
           </Link>
         </li>
 

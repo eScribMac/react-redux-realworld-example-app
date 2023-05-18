@@ -14,9 +14,9 @@ const EditProfileSettings = props => {
   if (props.isUser) {
     return (
       <Link
-        to="/settings"
+        to="/preferences"
         className="btn btn-sm btn-outline-secondary action-btn">
-        <i className="ion-gear-a"></i> Edit Profile Settings
+        <i className="ion-gear-a"></i> Edit Profile Preferences
       </Link>
     );
   }
